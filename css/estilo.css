@@ -1,0 +1,428 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
+
+body{
+	font-family: 'open sans';
+	font-size: 1rem;
+}
+
+header{
+	width: 100%;
+	height: 40.625rem;
+	background-image:url(../img/fondo1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	color:#fff;
+	text-align: center;
+
+}
+header .textos{
+	margin-top: 5.625rem;
+	-webkit-text-stroke: 0.0625rem #EDDDC3;
+ font-family: arial; color: #1836e0;
+ font-size: 1.875rem;
+
+ 
+}
+header .titulo{
+	font-size: 5.3125rem;
+	-webkit-text-stroke: 0.1875rem #ebeff3;
+ font-family: arial; color: #e01818;
+}
+header .subtitulo{
+	font-size: 2.625rem;
+	font-weight: 18.75rem;
+	margin-bottom: 2rem;
+}
+.idiomas{
+	background-color: #092327;
+	
+	text-align: center;
+	width: 100%;
+	font-size: 0.5rem;
+	padding: 0.625rem;
+}
+.menus{
+	background-color: #092327;
+	text-align: center;
+
+
+}
+.titulo_nosotros{
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	padding: 0.3125rem;
+}
+.titulo_contacto{
+	font-size: 1.5625rem;
+	text-align: center;
+	font-weight: bold;
+	color: #f7f7f7;
+	padding: 0.3125rem;
+}
+.texto_contacto{
+	font-size: 1.25rem;
+	text-align: center;
+	color: #f7f7f7;
+	padding: 0.3125rem;
+
+}
+.menu{
+	
+	padding: 0;
+	width: 90%;
+	max-width: 62.5rem;
+	margin: auto;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 62.5rem;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 1.25rem;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+.menu1{
+	padding: 0;
+	background: rgb(155, 25, 194);
+	width: 90%;
+	max-width: 21.875rem;
+	margin: auto;
+}
+
+.menu1 li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+.referencias{
+	width: 100%;
+	padding: 1.25rem;
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+.menu1 li{
+	display: inline-table;
+	text-align: center;
+}
+.referencia1{
+	width: 20%;
+	height: 1.875rem;
+	float: left;
+	text-align: center;
+
+}
+.referencia2{
+	width: 20%;
+	height: 1.875rem;
+	text-align: center;
+	float: left;
+
+}
+.referencia3{
+	width: 20%;
+	height: 1.875rem;
+	text-align: center;
+	float: left;
+
+}
+.referencia4{
+	width: 20%;
+	height: 1.875rem;
+	text-align: center;
+	float: left;
+
+}
+.referencia5{
+	width: 20%;
+	text-align: center;
+	height: 1.875rem;
+	float: right;
+}
+.derechos_reservados{
+	background-color: #f7f7f7;
+	width: 100%;
+	text-align: center;
+	height: 3.75rem;
+}
+.menu1 li img{
+	width:2.5rem;
+	height: 1.875rem;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
+
+}
+.sesgoabajo{
+	z-index: 10;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-width: 0 0  15vh 100vw;
+	border-style: solid;
+	border-color: transparent transparent #fff transparent;
+}
+.sesgoarriba{
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-width:15vh 100vw 0 0  ;
+	border-style: solid;
+	border-color: #fff transparent transparent transparent;
+}
+
+
+
+.sobre-nosotros{
+	text-align: center;
+	font-size: 3.5rem;
+	margin-bottom: 0.625rem;
+	font-weight: 37.5rem;
+}
+.parrafo{
+margin-bottom: 0.8125rem;
+font-weight: 18.75rem;
+font-size: 1.2rem;
+text-align: justify;
+line-height: 2.1875rem;
+color: rgb(29, 6, 6)
+}
+.titulo_de_estrenos{
+	margin-bottom: 0.8125rem;
+	font-weight: 18.75rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 2.1875rem;
+	color: rgb(29, 6, 6)
+	}
+.galeria{
+    width: 100%;
+    height: 31.25rem;
+    overflow:hidden;
+    display:flex;
+    position: relative;   
+}
+.imagenes{
+    width: 20%;
+    height: 31.25rem;
+    overflow:hidden;
+    position: relative;
+}
+.imagenes img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin:auto;
+}
+.encima{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: hsla(210, 29%, 29%, 0.849);
+
+}
+.encima h2{
+	position: relative;
+	top:45%;
+	text-align: center;
+	color: #fff;
+
+}
+.encima div{
+	position: relative;
+	display: block;
+	top: 46%;
+	width: 2.5rem;
+	height: 0.3125rem;
+	background: #fff;
+	margin:auto;
+}
+.pie .abajo{
+	position: relative;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	height: 10;
+	background: #34495e;
+
+}
+.pie .abajo h2{
+	position: relative;
+	bottom:45%;
+	text-align: center;
+	color: #fff;
+
+}
+
+
+
+.pie .abajo div{
+	position: relative;
+	display: block;
+	bottom: 46%;
+	width: 2.5rem;
+	height: 0.3125rem;
+	background: #fff;
+	margin:auto;
+}
+.fotopelis2 img{
+	width: 12.5rem;
+	height: 12.5rem;
+	float:left;
+	margin-right: 0.625rem;
+	border-radius: 30%;
+}
+.boton{
+	display: inline-block;
+  border-radius: 0.25rem;
+  background-color: #34495e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 0.625rem;
+  width: 9.375rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0.3125rem;
+
+}
+.contenedor{
+	width: 90%;
+	max-width: 62.5rem;
+	margin: auto;
+	overflow: hidden;
+	padding: 3.25rem 0;
+}
+
+.estreno1 img{
+	width: 12.5rem;
+	height: 12.5rem;
+	margin-right: 0.625rem;
+	border-radius: 30%;
+}
+.estreno1 {
+	width: 33.33%;
+	float:left;	
+	text-align: center;
+
+}
+.estreno2 {
+	width: 33.33%;
+	float:left;	
+	text-align: center;
+
+}
+.estreno2 img{
+	width: 12.5rem;
+	height: 12.5rem;
+	margin-right: 0.625rem;
+	border-radius: 30%;
+}
+.estreno3 {
+	text-align: center;
+	width: 33.33%;;
+	float:left;
+
+}
+.estreno3 img{
+	width: 12.5rem;
+	height: 12.5rem;
+	margin-right: 0.625rem;
+	border-radius: 30%;
+}
+
+
+.ir-arriba
+{
+	display: inline-block;
+	padding: 1.25rem;
+	background: #024959;
+	font-size:1.25rem;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:1.25rem;
+	right:1.25rem;
+
+}
+
+
+.esp{
+	color: #333;
+}
+.ingles{
+	color: #00a1ff;
+}
+.en{
+	font-size: 0.9375rem;
+	-webkit-text-stroke: 0.0125rem #000000;
+ font-family: arial; color: #ffffff;
+}
+.es{
+	font-size: 0.9375rem;
+	-webkit-text-stroke: 0.0125rem #000000;
+ font-family: arial; color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+
+    html {
+		font-size: 12px;
+    }
+
+	.estreno1 {
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	
+	}
+	.estreno2 {
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	
+	}
+
+	.estreno3 {
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	
+	}
+	header .titulo{
+		font-size: 45px;
+	}
+
+}
